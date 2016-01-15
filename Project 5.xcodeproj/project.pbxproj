@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7FC337B1BF0674E00DFE567 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FC337A1BF0674E00DFE567 /* main.cpp */; };
+		F7FC337B1BF0674E00DFE567 /* rocks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FC337A1BF0674E00DFE567 /* rocks.cpp */; };
+		F7FC33841BF068A800DFE567 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FC33831BF068A800DFE567 /* utilities.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		F7FC33771BF0674E00DFE567 /* Project 5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 5"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7FC337A1BF0674E00DFE567 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F7FC337A1BF0674E00DFE567 /* rocks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rocks.cpp; sourceTree = "<group>"; };
+		F7FC33821BF0683C00DFE567 /* utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = utilities.h; path = ../utilities.h; sourceTree = "<group>"; };
+		F7FC33831BF068A800DFE567 /* utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = utilities.cpp; path = ../utilities.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		F7FC33791BF0674E00DFE567 /* Project 5 */ = {
 			isa = PBXGroup;
 			children = (
-				F7FC337A1BF0674E00DFE567 /* main.cpp */,
+				F7FC33831BF068A800DFE567 /* utilities.cpp */,
+				F7FC33821BF0683C00DFE567 /* utilities.h */,
+				F7FC337A1BF0674E00DFE567 /* rocks.cpp */,
 			);
 			path = "Project 5";
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7FC337B1BF0674E00DFE567 /* main.cpp in Sources */,
+				F7FC33841BF068A800DFE567 /* utilities.cpp in Sources */,
+				F7FC337B1BF0674E00DFE567 /* rocks.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
